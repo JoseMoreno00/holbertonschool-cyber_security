@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo netstat -pa 
+sudo netstat -pal 

@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ss --tcp -p
+sudo ss -atp

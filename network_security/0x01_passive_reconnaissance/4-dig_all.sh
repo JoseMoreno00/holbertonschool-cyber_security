@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo dig +noall +answer any $1
+sudo dig any +noall +answer $1

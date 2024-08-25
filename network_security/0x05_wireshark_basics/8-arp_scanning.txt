@@ -1,1 +1,1 @@
-arp.dst.hw_mac == FF-FF-FF-FF-FF-FF
+arp.dst.hw_mac == 00:00:00:00:00:00

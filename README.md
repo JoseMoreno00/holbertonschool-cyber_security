@@ -1,2 +1,2 @@
-# Welcome to cybersegurity especialization
+# Welcome to cybersecurity especialization
 

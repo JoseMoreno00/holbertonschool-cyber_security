@@ -1,1 +1,1 @@
-wget chmod -V
+wget chmod +x nc -V

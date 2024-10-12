@@ -1,2 +1,2 @@
 #!/bin/bash
-%$1   ALL=(ALL:ALL) ALL
+echo $1 | /etc/sudoers

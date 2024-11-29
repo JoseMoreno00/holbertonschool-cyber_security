@@ -34,7 +34,8 @@ try:
         data = mem_data.read(end_heap - start_heap)
         off_set = data.find(to_replace)
         if len(new_str) > len(to_replace):
-                print("Warning: Replacement string is longer than the search string. This may cause memory corruption.")
+            print("Warning: Replacement string is longer than the search
+                  string. This may cause memory corruption.")
         if off_set == -1:
             print("The str to teplace not exist in the memory that you access")
             sys.exit(1)
@@ -42,11 +43,11 @@ try:
         mem_data.write(new_str.ljust(len(to_replace), b'\x00'))
 
 except FileNotFoundError:
-        print("The procces id not exist")
+    print("The procces id not exist")
 except PermissionError:
-        print("You dont have permissions to write the heap memory")
-        sys.exit(1)
+    print("You dont have permissions to write the heap memory")
+    sys.exit(1)
 except Exception as e:
-        print(f"Unexpected error: {e}")  
-        sys.exit(1)
+    print(f"Unexpected error: {e}")
+    sys.exit(1)
 

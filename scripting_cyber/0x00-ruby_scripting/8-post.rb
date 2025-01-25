@@ -6,5 +6,5 @@ def post_request(url, body_params)
 
     puts "Response status: #{res.code} #{res.message}"
 
-    puts "Response body:\n#{res.body}"
+    print "Response body:\n#{res.body}"
 end

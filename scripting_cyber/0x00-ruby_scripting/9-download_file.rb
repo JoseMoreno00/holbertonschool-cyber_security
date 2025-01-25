@@ -23,5 +23,5 @@ if ARGV.length != 2
 else
     url = ARGV[0]
     path = ARGV[1]
-    download(url, path)
+    download_file(url, path)
 end

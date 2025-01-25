@@ -4,7 +4,7 @@ require 'fileutils'
 
 def download_file(url, path)
     if url.nil? || path.nil?
-        puts "Usage: 9-download.rb URL LOCAL_FILE_PATH"
+        puts "Usage: 9-download_file.rb URL LOCAL_FILE_PATH"
         return
     end
 
@@ -19,7 +19,7 @@ def download_file(url, path)
 end
 
 if ARGV.length != 2
-    puts "Usage: 9-download.rb URL LOCAL_FILE_PATH"
+    puts "Usage: 9-download_file.rb URL LOCAL_FILE_PATH"
 else
     url = ARGV[0]
     path = ARGV[1]

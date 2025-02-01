@@ -11,7 +11,7 @@ else
         if hash == hashed_password
             puts "Password found: #{word}"
             return
-        puts "Password not found in dictionary."
         end
     end
+    puts "Password not found in dictionary."
 end
